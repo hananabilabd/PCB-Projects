@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MP34DT05TRA"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MP34DT05TRA")
+        (spec "default")
+    )
+)

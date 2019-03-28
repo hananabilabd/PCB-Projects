@@ -1,0 +1,17 @@
+.MP34DT05TR-A :1 ;STMICROELECTRONICS - MP34DT05TR-A - MEMS MICROPHONE, 3.6V, HCLGA-4
+MP34DT05TRA
+*STM MK
+*NGS
+*PLB 1="CLK" 2="DOUT" 3="VDD" 4="LR" 5="GND_1" 6="GND_2" 7="GND_3" 8="GND_4"
+*MXP 8
+*DFN MP34DT05TR-A
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (MP34DT05TR-A)
+~!Mouser Part Number (511-MP34DT05TR-A)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=511-MP34DT05TR-A)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c7/90/d3/f6/b7/e7/40/c8/DM00415595/files/DM00415595.pdf/jcr:content/translations/en.DM00415595.pdf)
+~!Height (1mm)
+MP34DT05TR-A
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 
