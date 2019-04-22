@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -28,13 +28,13 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
@@ -73,10 +73,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="20" y2="0" width="0.15" layer="20"/>
-<wire x1="20" y1="0" x2="20" y2="15" width="0.15" layer="20"/>
-<wire x1="20" y1="15" x2="0" y2="15" width="0.15" layer="20"/>
-<wire x1="0" y1="15" x2="0" y2="0" width="0.15" layer="20"/>
+<wire x1="0" y1="0" x2="20" y2="0" width="0" layer="20"/>
+<wire x1="20" y1="0" x2="20" y2="15" width="0" layer="20"/>
+<wire x1="20" y1="15" x2="0" y2="15" width="0" layer="20"/>
+<wire x1="0" y1="15" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="analog-devices" urn="urn:adsk.eagle:library:102">
@@ -404,13 +404,13 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="28.9" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="19.121" y="5.08" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA05-1" package3d_urn="urn:adsk.eagle:package:8332/1" value="" x="2.79" y="7.67" rot="R270">
-<attribute name="MF" value="" x="-17.53" y="-12.65" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-17.53" y="-12.65" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="4.441" y="14.02" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="OC_FARNELL" value="unknown" x="-17.53" y="-12.65" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-17.53" y="-12.65" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-0.131" y="10.21" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA05-1" package3d_urn="urn:adsk.eagle:package:8332/1" value="" x="2.54" y="7.62" rot="R270">
+<attribute name="MF" value="" x="-17.78" y="-12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-17.78" y="-12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="4.191" y="13.97" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="unknown" x="-17.78" y="-12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="-17.78" y="-12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-0.381" y="10.16" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -418,35 +418,34 @@ design rules under a new name.</description>
 <contactref element="SV2" pad="1"/>
 <contactref element="IC1" pad="1"/>
 <wire x1="8.0469" y1="8.62" x2="8.0469" y2="10.9523" width="0.25" layer="1"/>
-<wire x1="8.0469" y1="10.9523" x2="6.2492" y2="12.75" width="0.25" layer="1"/>
-<wire x1="6.2492" y1="12.75" x2="2.79" y2="12.75" width="0.3" layer="1"/>
+<wire x1="8.0469" y1="10.9523" x2="6.2992" y2="12.7" width="0.25" layer="1"/>
+<wire x1="6.2992" y1="12.7" x2="2.54" y2="12.7" width="0.3" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="SV2" pad="2"/>
 <contactref element="IC1" pad="2"/>
-<wire x1="3.6584" y1="10.21" x2="2.79" y2="10.21" width="0.25" layer="1"/>
+<wire x1="3.7084" y1="10.16" x2="2.54" y2="10.16" width="0.25" layer="1"/>
 <wire x1="8.0469" y1="8.12" x2="5.7484" y2="8.12" width="0.25" layer="1"/>
-<wire x1="5.7484" y1="8.12" x2="3.6584" y2="10.21" width="0.25" layer="1"/>
+<wire x1="5.7484" y1="8.12" x2="3.7084" y2="10.16" width="0.25" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="SV2" pad="3"/>
 <contactref element="IC1" pad="3"/>
-<wire x1="8.0469" y1="7.62" x2="7.9969" y2="7.67" width="0.25" layer="1"/>
-<wire x1="7.9969" y1="7.67" x2="2.79" y2="7.67" width="0.25" layer="1"/>
+<wire x1="8.0469" y1="7.62" x2="2.54" y2="7.62" width="0.25" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="SV2" pad="4"/>
 <contactref element="IC1" pad="4"/>
-<wire x1="3.7584" y1="5.13" x2="2.79" y2="5.13" width="0.1524" layer="1"/>
+<wire x1="3.7084" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="1"/>
 <wire x1="8.0469" y1="7.12" x2="5.7484" y2="7.12" width="0.25" layer="1"/>
-<wire x1="5.7484" y1="7.12" x2="3.7584" y2="5.13" width="0.25" layer="1"/>
+<wire x1="5.7484" y1="7.12" x2="3.7084" y2="5.08" width="0.25" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="SV2" pad="5"/>
 <contactref element="IC1" pad="5"/>
 <wire x1="8.0469" y1="6.62" x2="8.0469" y2="4.2877" width="0.25" layer="1"/>
-<wire x1="8.0469" y1="4.2877" x2="6.3492" y2="2.59" width="0.25" layer="1"/>
-<wire x1="6.3492" y1="2.59" x2="2.79" y2="2.59" width="0.25" layer="1"/>
+<wire x1="8.0469" y1="4.2877" x2="6.2992" y2="2.54" width="0.25" layer="1"/>
+<wire x1="6.2992" y1="2.54" x2="2.54" y2="2.54" width="0.25" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC1" pad="6"/>
