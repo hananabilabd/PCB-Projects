@@ -6391,16 +6391,16 @@ by exp-lbrs.ulp</description>
 <parts>
 <part name="IC1" library="STM32F446RCT6" deviceset="STM32F446RCT6" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="10k"/>
-<part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100n+1u"/>
-<part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100n+1u"/>
-<part name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100n+1u"/>
-<part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100n+1u"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1"/>
-<part name="C6" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100n+1u"/>
+<part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100n"/>
+<part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100n"/>
+<part name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100n"/>
+<part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100n"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="47"/>
+<part name="C6" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100n"/>
 <part name="C7" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="2.2U"/>
 <part name="C8" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100n+1u"/>
-<part name="C9" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="20p"/>
-<part name="C11" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="20p"/>
+<part name="C9" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="22p"/>
+<part name="C11" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="22p"/>
 <part name="JP3" library="F405Pill" deviceset="HEADERHOLE" device="-HEADERHOLE"/>
 <part name="JP4" library="F405Pill" deviceset="HEADERHOLE" device="-HEADERHOLE"/>
 <part name="JP5" library="F405Pill" deviceset="HEADERHOLE" device="-HEADERHOLE"/>
@@ -6463,7 +6463,7 @@ by exp-lbrs.ulp</description>
 <part name="JP63" library="F405Pill" deviceset="HEADERHOLE" device="-HEADERHOLE"/>
 <part name="JP65" library="F405Pill" deviceset="HEADERHOLE" device="-HEADERHOLE"/>
 <part name="JP7" library="F405Pill" deviceset="HEADERHOLE" device="-HEADERHOLE"/>
-<part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="20p"/>
+<part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="22p"/>
 </parts>
 <sheets>
 <sheet>
@@ -6509,9 +6509,9 @@ by exp-lbrs.ulp</description>
 <attribute name="NAME" x="19.939" y="34.544" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="25.019" y="34.544" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C9" gate="G$1" x="-27.94" y="66.04" rot="R90">
-<attribute name="NAME" x="-28.321" y="67.564" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-23.241" y="67.564" size="1.778" layer="96" rot="R90"/>
+<instance part="C9" gate="G$1" x="-27.94" y="63.5" rot="R90">
+<attribute name="NAME" x="-28.321" y="65.024" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-23.241" y="65.024" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C11" gate="G$1" x="-27.94" y="55.88" rot="R90">
 <attribute name="NAME" x="-28.321" y="57.404" size="1.778" layer="95" rot="R90"/>
@@ -6737,13 +6737,13 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="G$1" pin="PH1-OSC_OUT"/>
 <wire x1="30.48" y1="50.8" x2="12.7" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="50.8" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="55.88" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="55.88" x2="-22.86" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-5.08" y="55.88"/>
 </segment>
 </net>
@@ -7029,15 +7029,13 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="N$53" class="0">
 <segment>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="66.04" x2="-22.86" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="PH0-OSC_IN"/>
 <wire x1="30.48" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="53.34" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="63.5" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="63.5" x2="-25.4" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="66.04" x2="-25.4" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="63.5" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="63.5" x2="-22.86" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-5.08" y="63.5"/>
 </segment>
 </net>
@@ -7064,7 +7062,7 @@ by exp-lbrs.ulp</description>
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="-30.48" y1="55.88" x2="-30.48" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="60.96" x2="-30.48" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="60.96" x2="-30.48" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="60.96" x2="-33.02" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-30.48" y="60.96"/>
 <pinref part="JP65" gate="G$1" pin="P$1"/>
