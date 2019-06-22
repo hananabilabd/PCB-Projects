@@ -1,0 +1,17 @@
+.1503_02 :1 ;LUMBERG - 1503 02 - CONNECTOR, RECEPTACLE, 3.5MM PHONO, 3WAY
+"150302"
+*STM J
+*NGS
+*PLB 1="1" 2="2_1" 3="2_2" 4="3"
+*MXP 4
+*DFN 1503_02
+~!Manufacturer_Name (LUMBERG)
+~!Manufacturer_Part_Number (1503 02)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (http://www.farnell.com/datasheets/2047485.pdf)
+~!Height (5mm)
+"1503_02"
+1.1!U 3.1!U 2.1!U 4.1!U 

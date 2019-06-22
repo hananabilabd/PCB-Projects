@@ -1,0 +1,153 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "1503_02"
+   (description "LUMBERG - 1503 02 - CONNECTOR, RECEPTACLE, 3.5MM PHONO, 3WAY")
+   (family "CON")
+   (package "150302")
+   (attribute "Datasheet Link" "http://www.farnell.com/datasheets/2047485.pdf")
+   (attribute "Geometry.Height" "5mm")
+   (attribute "Manufacturer_Name" "LUMBERG")
+   (attribute "Manufacturer_Part_Number" "1503 02")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "RS Part Number" "")
+   (attribute "RS Price/Stock" "")
+   (gate
+    (symbol "1503_02")
+    (pin "1" 1 PS)
+    (pin "2_2" 3 PS)
+    (pin "2_1" 2 PS)
+    (pin "3" 4 PS)
+   )
+  )
+  (symbol "1503_02"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "150302"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.55 3)
+      (pt 6.95 3)
+      (pt 6.95 -3.5)
+      (pt -4.55 -3.5)
+      (pt -4.55 3))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.05 6.05)
+      (pt 8.05 6.05)
+      (pt 8.05 -6.05)
+      (pt -8.05 -6.05)
+      (pt -8.05 6.05))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.55 1.55)
+      (pt -7.05 1.55)
+      (pt -7.05 -2.05)
+      (pt -4.55 -2.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -4.55 3)
+      (pt -4.55 1.55)
+      (pt -7.05 1.55)
+      (pt -7.05 -2.05)
+      (pt -4.55 -2.05)
+      (pt -4.55 -3.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.05 3)
+      (pt 4.95 3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.05 -3.5)
+      (pt 4.95 -3.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 6.95 2.25)
+      (pt 6.95 -2.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 6.25 4.95)
+      (arc (pt 6.250 4.950) (pt 6.250 4.850) (pt 6.450 5.050) (start -180.0) (sweep 180.0))
+      (pt 6.45 4.95)
+      (arc (pt 6.450 4.950) (pt 6.250 4.850) (pt 6.450 5.050) (start -180.0) (sweep .0))
+      (pt 6.25 4.95))))
+   (leg 1 (pt 6.300 3.800) (padstack 0))
+   (leg 2 (pt -2.550 3.800) (padstack 2))
+   (leg 3 (pt -2.550 -4.300) (padstack 3))
+   (leg 4 (pt 6.300 -4.300) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (square 1.500))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 1.500 2.000 0 0 0.000))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 1.500 2.000 0 0 0.000))
+   )
+  )
+ )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1503_02'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LUMBERG", "1503 02" (!) = "", "150302", "Other", "", "", "", "", "LUMBERG - 1503 02 - CONNECTOR, RECEPTACLE, 3.5MM PHONO, 3WAY", "http://www.farnell.com/datasheets/2047485.pdf", "5 mm"
+END_PART
+
+END.

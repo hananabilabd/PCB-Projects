@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F413CGU6
+D STMICROELECTRONICS - STM32F413CGU6 - MCU, ARM CORTEX-M4, 100MHZ, UFQFPN-48
+K
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/f6/1d/4a/d9/f9/96/43/2a/DM00282249/files/DM00282249.pdf/jcr:content/translations/en.DM00282249.pdf
+$ENDCMP
+#
+#End Doc Library

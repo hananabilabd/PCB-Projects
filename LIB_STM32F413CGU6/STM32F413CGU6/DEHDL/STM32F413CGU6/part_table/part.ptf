@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM32F413CGU6'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STM32F413CGU6" (!) = "", "QFN50P700X700X60-49N-D", "Quad Flat No-Lead", "511-STM32F413CGU6", "https://www.mouser.com/Search/Refine.aspx?Keyword=511-STM32F413CGU6", "", "", "STMICROELECTRONICS - STM32F413CGU6 - MCU, ARM CORTEX-M4, 100MHZ, UFQFPN-48", "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/f6/1d/4a/d9/f9/96/43/2a/DM00282249/files/DM00282249.pdf/jcr:content/translations/en.DM00282249.pdf", "0.6 mm"
+END_PART
+
+END.

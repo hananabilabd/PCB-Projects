@@ -1,0 +1,68 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+STM32F413CGU6 QFN50P700X700X60-49N-D I ANA 9 1 0 0 0
+TIMESTAMP 2019.06.18.00.24.14
+"Manufacturer_Name" STMicroelectronics
+"Manufacturer_Part_Number" STM32F413CGU6
+"Mouser Part Number" 511-STM32F413CGU6
+"Mouser Price/Stock" https://www.mouser.com/Search/Refine.aspx?Keyword=511-STM32F413CGU6
+"RS Part Number" 
+"RS Price/Stock" 
+"Description" STMICROELECTRONICS - STM32F413CGU6 - MCU, ARM CORTEX-M4, 100MHZ, UFQFPN-48
+"Datasheet Link" http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/f6/1d/4a/d9/f9/96/43/2a/DM00282249/files/DM00282249.pdf/jcr:content/translations/en.DM00282249.pdf
+"Geometry.Height" 0.6mm
+GATE 1 49 0
+STM32F413CGU6
+1 0 P VBAT
+2 0 U PC13
+3 0 U PC14-OSC32_IN
+4 0 U PC15-OSC32_OUT
+5 0 U PH0_-_OSC_IN
+6 0 U PH1_-_OSC_OUT
+7 0 U NRST
+8 0 P VSSA
+9 0 P VDDA
+10 0 U PA0
+11 0 U PA1
+12 0 U PA2
+13 0 U PA3
+14 0 U PA4
+15 0 U PA5
+16 0 U PA6
+17 0 U PA7
+18 0 U PB0
+19 0 U PB1
+20 0 U PB2
+21 0 U PB10
+22 0 P VCAP_1
+23 0 P VSS_1
+24 0 P VDD_1
+36 0 P VDD_2
+35 0 P VSS_2
+34 0 U PA13
+33 0 U PA12
+32 0 U PA11
+31 0 U PA10
+30 0 U PA9
+29 0 U PA8
+28 0 U PB15
+27 0 U PB14
+26 0 U PB13
+25 0 U PB12
+POSITION 0 U NAME
+48 0 P VDD_3
+47 0 P VSS_3
+46 0 U PB9
+45 0 U PB8
+44 0 U BOOT0
+43 0 U PB7
+42 0 U PB6
+41 0 U PB5
+40 0 U PB4
+39 0 U PB3
+38 0 U PA15
+37 0 U PA14
+
+*END*
+*REMARK* SamacSys ECAD Model
+576700/119480/2.43/49/4/Integrated Circuit
