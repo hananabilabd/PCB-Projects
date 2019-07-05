@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_1160500"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-06-30-15:46:46)
+    (utime 2019-07-01-06:56:31)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "C0603C104M4RAC7411")
+)
+
+
+(pinAssign "ECS_1160500"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-06-30-15:46:46)
+    (utime 2019-07-01-06:56:31)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1160500")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "C0603C104M4RAC7411")
+)
+
+
+(part "C0603C104M4RAC7411"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-06-30-15:46:46)
+    (utime 2019-07-01-06:56:31)
+    (packageRef "C0603C104M4RAC7411")
+    (pinAssignRef "ECS_1160500")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "KEMET - C0603C104M4RAC7411 - CAP, 0.1F, 16V, 20%, X7R, 0603")
+    (property "Manufacturer_Name" "Kemet")
+    (property "Manufacturer_Part_Number" "C0603C104M4RAC7411")
+    (property "Mouser_Part_Number" "80-C0603C104M4R7411")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603C104M4R7411")
+    (property "RS_Part_Number" "")
+    (property "RS_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf")
+    (property "compAreaTopHeight" 0.95)
+)
+
+

@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_852254"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-03-13:56:51)
+    (utime 2019-07-02-06:56:09)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "CL21A106KAYNNNE")
+)
+
+
+(pinAssign "ECS_852254"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-03-13:56:51)
+    (utime 2019-07-02-06:56:09)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_852254")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CL21A106KAYNNNE")
+)
+
+
+(part "CL21A106KAYNNNE"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-03-13:56:51)
+    (utime 2019-07-02-06:56:09)
+    (packageRef "CL21A106KAYNNNE")
+    (pinAssignRef "ECS_852254")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Samsung")
+    (property "Manufacturer_Name" "Samsung Electro-Mechanics")
+    (property "Manufacturer_Part_Number" "CL21A106KAYNNNE")
+    (property "Mouser_Part_Number" "N/A")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA")
+    (property "RS_Part_Number" "")
+    (property "RS_Price/Stock" "")
+    (property "Datasheet_Link" "http://www.samsungsem.com/kr/support/library/product-catalog/__icsFiles/afieldfile/2017/09/13/MLCC.pdf")
+    (property "compAreaTopHeight" 1.45)
+)
+
+

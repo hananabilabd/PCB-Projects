@@ -1,0 +1,18 @@
+.C2012X7R1E225K125AB :1 ;TDK - C2012X7R1E225K125AB - CAPACITOR, MLCC, X7R, 2.2UF, 25V, 0805
+CAPC2012X145N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C2012X7R1E225K125AB
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (C2012X7R1E225K125AB)
+~!Mouser Part Number (810-C2012X7R1E225K)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=810-C2012X7R1E225K)
+~!RS Part Number (9159394P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/9159394P)
+~!Link Datasheet (https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf)
+~!Height (1.45mm)
+~!3D_Model (C2012X7R1E225K125AB)
+C2012X7R1E225K125AB
+1.1!U 2.1!U 

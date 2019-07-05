@@ -1,5 +1,5 @@
 SamacSys ECAD Model
-820881/119480/2.40/28/4/Integrated Circuit
+820881/119480/2.43/28/4/Integrated Circuit
 
 DESIGNSPARK_INTERMEDIATE_ASCII
 

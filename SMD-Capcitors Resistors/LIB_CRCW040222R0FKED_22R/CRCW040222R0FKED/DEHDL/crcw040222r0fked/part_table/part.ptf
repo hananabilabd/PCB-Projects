@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CRCW040222R0FKED'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "ALLIED_NUMBER", "ALLIED_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "CRCW040222R0FKED" (!) = "", "RESC1005X40N", "Resistor Chip", "71-CRCW0402-22-E3", "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0402-22-E3", "6788983P", "http://uk.rs-online.com/web/p/products/6788983P", "70202113", "https://www.alliedelec.com/vishay-dale-crcw040222r0fked/70202113/", "Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 22 +/-1% 0.063W +/-100ppm/C", "http://www.vishay.com/docs/20035/dcrcwe3.pdf", "0.4 mm"
+END_PART
+
+END.

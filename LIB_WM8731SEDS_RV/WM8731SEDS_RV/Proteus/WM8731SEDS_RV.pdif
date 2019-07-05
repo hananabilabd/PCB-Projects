@@ -1,6 +1,6 @@
 ;Proteus Design Interchange Format
 (PDIF
- (vendor "Labcenter Electronics")
+ (vendor "SamacSys Limited")
  (version 1 0)
  (library
   (part "WM8731SEDS_RV"

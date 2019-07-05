@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_590778"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-01-11-19:26:17)
+    (utime 2018-05-24-11:04:51)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "ERJ-8ENF22R0V")
+)
+
+
+(pinAssign "ECS_590778"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-01-11-19:26:17)
+    (utime 2018-05-24-11:04:51)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_590778")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ERJ-8ENF22R0V")
+)
+
+
+(part "ERJ-8ENF22R0V"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-01-11-19:26:17)
+    (utime 2018-05-24-11:04:51)
+    (packageRef "ERJ-8ENF22R0V")
+    (pinAssignRef "ECS_590778")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "RESISTOR, 1206 22 Ohm +/-1 % 0.25 W")
+    (property "Manufacturer_Name" "Panasonic")
+    (property "Manufacturer_Part_Number" "ERJ-8ENF22R0V")
+    (property "Mouser_Part_Number" "667-ERJ-8ENF22R0V")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-8ENF22R0V")
+    (property "RS_Part_Number" "")
+    (property "RS_Price/Stock" "")
+    (property "Allied_Number" "70268877")
+    (property "Allied_Price/Stock" "https://www.alliedelec.com/panasonic-erj-8enf22r0v/70268877/")
+    (property "Datasheet_Link" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf")
+    (property "compAreaTopHeight" 0.7)
+)
+
+

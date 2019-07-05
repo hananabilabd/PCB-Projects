@@ -1,0 +1,93 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BLM18BD252SN1D"
+   (description "0603 Ferrite Bead,2K5,25%,50mA,1R5 Murata Ferrite Bead (Chip Ferrite Bead), 1.6 x 0.8 x 0.8mm (0603), 2500 impedance at 100 MHz")
+   (family "ANA")
+   (package "BEADC1608X95N")
+   (attribute "Datasheet Link" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb")
+   (attribute "Geometry.Height" "0.95mm")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "BLM18BD252SN1D")
+   (attribute "Mouser Part Number" "81-BLM18BD252SN1D")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-BLM18BD252SN1D")
+   (attribute "RS Part Number" "7241321P")
+   (attribute "RS Price/Stock" "http://uk.rs-online.com/web/p/products/7241321P")
+   (gate
+    (symbol "BLM18BD252SN1D")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "BLM18BD252SN1D"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -100) (pt 200 -100) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "BEADC1608X95N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.475 0.75)
+      (pt 1.475 0.75)
+      (pt 1.475 -0.75)
+      (pt -1.475 -0.75)
+      (pt -1.475 0.75))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.8 0.4)
+      (pt 0.8 0.4)
+      (pt 0.8 -0.4)
+      (pt -0.8 -0.4)
+      (pt -0.8 0.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 0.3)
+      (pt 0 -0.3))))
+   (leg 1 (pt -0.8 0) (padstack 0))
+   (leg 2 (pt 0.8 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.85 1 0 0 90))
+   )
+   (model "BLM18BD252SN1D.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

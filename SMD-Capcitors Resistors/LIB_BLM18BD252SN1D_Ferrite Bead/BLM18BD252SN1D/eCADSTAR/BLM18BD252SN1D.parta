@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_377292"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-08-10-16:33:21)
+    (utime 2018-04-15-06:32:35)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BLM18BD252SN1D")
+)
+
+
+(pinAssign "ECS_377292"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-08-10-16:33:21)
+    (utime 2018-04-15-06:32:35)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_377292")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BLM18BD252SN1D")
+)
+
+
+(part "BLM18BD252SN1D"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-08-10-16:33:21)
+    (utime 2018-04-15-06:32:35)
+    (packageRef "BLM18BD252SN1D")
+    (pinAssignRef "ECS_377292")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "FB")
+    (property "description" "0603 Ferrite Bead,2K5,25%,50mA,1R5 Murata Ferrite Bead (Chip Ferrite Bead), 1.6 x 0.8 x 0.8mm (0603), 2500 impedance at 100 MHz")
+    (property "Manufacturer_Name" "Murata Electronics")
+    (property "Manufacturer_Part_Number" "BLM18BD252SN1D")
+    (property "Mouser_Part_Number" "81-BLM18BD252SN1D")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-BLM18BD252SN1D")
+    (property "RS_Part_Number" "7241321P")
+    (property "RS_Price/Stock" "http://uk.rs-online.com/web/p/products/7241321P")
+    (property "Datasheet_Link" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb")
+    (property "compAreaTopHeight" 0.95)
+)
+
+

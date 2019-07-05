@@ -1,0 +1,18 @@
+.C1608C0G1H150J080AA :1 ;TDK 0603 C 15pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-5% SMD
+CAPC1608X80N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C1608C0G1H150J080AA
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (C1608C0G1H150J080AA)
+~!Mouser Part Number (810-C1608C0G1H150J)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608C0G1H150J)
+~!RS Part Number (7882935)
+~!Link RS Price/Stock (https://uk.rs-online.com/web/p/products/7882935)
+~!Link Datasheet (https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf)
+~!Height (0.8mm)
+~!3D_Model (C1608C0G1H150J080AA)
+C1608C0G1H150J080AA
+1.1!U 2.1!U 

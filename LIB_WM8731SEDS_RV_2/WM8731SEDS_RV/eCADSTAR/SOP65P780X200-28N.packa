@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "WM8731SEDS_RV"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-05-07-05:12:43)
+    (mountForm default
+        (footprintRef "SOP65P780X200-28N")
+        (spec "System")
+    )
+)

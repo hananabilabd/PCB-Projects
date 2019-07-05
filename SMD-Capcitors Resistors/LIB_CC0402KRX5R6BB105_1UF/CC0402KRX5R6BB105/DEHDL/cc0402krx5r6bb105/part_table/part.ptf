@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CC0402KRX5R6BB105'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "YAGEO (PHYCOMP)", "CC0402KRX5R6BB105" (!) = "", "CAPC1005X55N", "Other", "603-CC402KRX5R6BB105", "https://www.mouser.com/Search/Refine.aspx?Keyword=603-CC402KRX5R6BB105", "", "", "CAPACITOR, 0402 1uF +/-10% 10V", "http://componentsearchengine.com/Datasheets/1/CC0402KRX5R6BB105.pdf"
+END_PART
+
+END.

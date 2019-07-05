@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MC0125W1206522R'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "MULTICOMP", "MC0125W1206522R" (!) = "", "RESC3116X65N", "Resistor Chip", "", "", "", "", "MULTICOMP - MC0125W1206522R - RES, 22R, 5%, 0.125W, 1206, THICK FILM", "http://www.farnell.com/datasheets/1729047.pdf", "0.65 mm"
+END_PART
+
+END.

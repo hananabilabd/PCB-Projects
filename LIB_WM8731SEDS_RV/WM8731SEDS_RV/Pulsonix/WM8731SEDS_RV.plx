@@ -1,5 +1,5 @@
 PULSONIX_LIBRARY_ASCII "SamacSys ECAD Model"
-//820881/119480/2.40/28/4/Integrated Circuit
+//820881/119480/2.43/28/4/Integrated Circuit
 
 (asciiHeader
 	(fileUnits MM)
@@ -235,6 +235,8 @@ PULSONIX_LIBRARY_ASCII "SamacSys ECAD Model"
 		(attr "<Hyperlink>" "https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/WM8731_v4.9.pdf")
 		(attr "<Component Height>" "2")
 		(attr "<STEP Filename>" "WM8731SEDS_RV.stp")
+		(attr "<STEP Offsets>" "X=0;Y=0;Z=0")
+		(attr "<STEP Rotation>" "X=0;Y=0;Z=0")
 	)
 
 )

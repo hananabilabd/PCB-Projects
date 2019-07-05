@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model BLM18BD252SN1D
+#/377292/119480/2.43/2/5/Ferrite Bead
+DEF BLM18BD252SN1D FB 0 30 Y Y 1 F N
+F0 "FB" 650 300 50 H V L CNN
+F1 "BLM18BD252SN1D" 650 200 50 H V L CNN
+F2 "BEADC1608X95N" 650 100 50 H I L CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" 650 0 50 H I L CNN
+F4 "0603 Ferrite Bead,2K5,25%,50mA,1R5 Murata Ferrite Bead (Chip Ferrite Bead), 1.6 x 0.8 x 0.8mm (0603), 2500 impedance at 100 MHz" 650 -100 50 H I L CNN "Description"
+F5 "0.95" 650 -200 50 H I L CNN "Height"
+F6 "Murata Electronics" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BLM18BD252SN1D" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-BLM18BD252SN1D" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-BLM18BD252SN1D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "7241321P" 650 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/7241321P" 650 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

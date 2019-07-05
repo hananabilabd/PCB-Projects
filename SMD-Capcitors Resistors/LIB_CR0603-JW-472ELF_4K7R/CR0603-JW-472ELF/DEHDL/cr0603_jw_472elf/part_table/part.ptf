@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CR0603_JW_472ELF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "ALLIED_NUMBER", "ALLIED_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "CR0603-JW-472ELF" (!) = "", "RESC1608X55N", "Resistor Chip", "652-CR0603-JW-472ELF", "https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-JW-472ELF", "7408956P", "http://uk.rs-online.com/web/p/products/7408956P", "70154691", "https://www.alliedelec.com/bourns-cr0603-jw-472elf/70154691/", "BOURNS - CR0603-JW-472ELF - RES, THICK FILM, 4K7, 5%, 0.1W, 0603, REEL", "https://www.bourns.com/pdfs/chpreztr.pdf", "0.55 mm"
+END_PART
+
+END.

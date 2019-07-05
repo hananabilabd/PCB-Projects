@@ -112,7 +112,7 @@
     </DefaultPartFieldMapping>
   </DefaultValues>
   <Package>
-    <Defn alphabeticNumbering="2" isHomogeneous="1" name="WM8731SEDS_RV" pcbFootprint="SOP65P780X200-28N" pcbLib="" refdesPrefix="IC" timestamp="1556872021" timezone="1780"/>
+    <Defn alphabeticNumbering="2" isHomogeneous="1" name="WM8731SEDS_RV" pcbFootprint="SOP65P780X200-28N" pcbLib="" refdesPrefix="IC" timestamp="1561896023" timezone="1780"/>
     <LibPart>
       <Defn CellName="WM8731SEDS_RV"/>
       <NormalView>

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C0603C104M4RAC7411
+D KEMET - C0603C104M4RAC7411 - CAP, 0.1F, 16V, 20%, X7R, 0603
+K
+F https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CC0402KRX5R6BB105
+D CAPACITOR, 0402 1uF +/-10% 10V
+K
+F http://componentsearchengine.com/Datasheets/1/CC0402KRX5R6BB105.pdf
+$ENDCMP
+#
+#End Doc Library

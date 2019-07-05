@@ -1,0 +1,20 @@
+.CR0603-JW-472ELF :1 ;BOURNS - CR0603-JW-472ELF - RES, THICK FILM, 4K7, 5%, 0.1W, 0603, REEL
+RESC1608X55N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CR0603-JW-472ELF
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (CR0603-JW-472ELF)
+~!Mouser Part Number (652-CR0603-JW-472ELF)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-JW-472ELF)
+~!RS Part Number (7408956P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/7408956P)
+~!Allied_Number (70154691)
+~!Link Allied Price/Stock (https://www.alliedelec.com/bourns-cr0603-jw-472elf/70154691/)
+~!Link Datasheet (https://www.bourns.com/pdfs/chpreztr.pdf)
+~!Height (0.55mm)
+~!3D_Model (CR0603-JW-472ELF)
+CR0603-JW-472ELF
+1.1!U 2.1!U 

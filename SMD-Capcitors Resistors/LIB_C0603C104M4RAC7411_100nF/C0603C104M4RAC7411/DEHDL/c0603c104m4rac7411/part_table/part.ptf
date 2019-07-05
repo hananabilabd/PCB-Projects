@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C0603C104M4RAC7411'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kemet", "C0603C104M4RAC7411" (!) = "", "CAPC1608X95N", "Capacitor Chip Non-polarised", "80-C0603C104M4R7411", "https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603C104M4R7411", "", "", "KEMET - C0603C104M4RAC7411 - CAP, 0.1F, 16V, 20%, X7R, 0603", "https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf", "0.95 mm"
+END_PART
+
+END.

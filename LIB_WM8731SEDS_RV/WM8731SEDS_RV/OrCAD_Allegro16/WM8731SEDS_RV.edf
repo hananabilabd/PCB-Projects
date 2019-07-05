@@ -6,8 +6,8 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timestamp 2019 05 03 10 27 01)
-      (dataOrigin "820881/119480/2.40/28/4/Integrated Circuit")
+      (timestamp 2019 06 30 14 00 23)
+      (dataOrigin "820881/119480/2.43/28/4/Integrated Circuit")
       (program "SamacSys ECAD Model WM8731SEDS_RV"
         (version "1.1"))))
   (library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CL21A106KAYNNNE'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Samsung Electro-Mechanics", "CL21A106KAYNNNE" (!) = "", "CAPC2012X145N", "Capacitor Chip Non-polarised", "N/A", "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA", "", "", "Samsung", "http://www.samsungsem.com/kr/support/library/product-catalog/__icsFiles/afieldfile/2017/09/13/MLCC.pdf", "1.45 mm"
+END_PART
+
+END.

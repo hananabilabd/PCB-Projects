@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ERJ-8ENF22R0V
+D RESISTOR, 1206 22 Ohm +/-1 % 0.25 W
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,67 @@
+(Japanese_coding: sjis)
+(function "ECS_603714"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-01-12-11:47:16)
+    (utime 2018-05-24-11:05:09)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "CC0402KRX5R6BB105")
+)
+
+
+(pinAssign "ECS_603714"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-01-12-11:47:16)
+    (utime 2018-05-24-11:05:09)
+    (interface
+        (port "1" (symbPinId 1) (portName "C1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "C2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_603714")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CC0402KRX5R6BB105")
+)
+
+
+(part "CC0402KRX5R6BB105"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-01-12-11:47:16)
+    (utime 2018-05-24-11:05:09)
+    (packageRef "CC0402KRX5R6BB105")
+    (pinAssignRef "ECS_603714")
+    (interface
+        (port "1" (symbPinId 1) (portName "C1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "C2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "CAPACITOR, 0402 1uF +/-10% 10V")
+    (property "Manufacturer_Name" "YAGEO (PHYCOMP)")
+    (property "Manufacturer_Part_Number" "CC0402KRX5R6BB105")
+    (property "Mouser_Part_Number" "603-CC402KRX5R6BB105")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=603-CC402KRX5R6BB105")
+    (property "RS_Part_Number" "")
+    (property "RS_Price/Stock" "")
+    (property "Datasheet_Link" "http://componentsearchengine.com/Datasheets/1/CC0402KRX5R6BB105.pdf")
+)
+
+

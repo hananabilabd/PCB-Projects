@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C1608C0G1H150J080AA
+D TDK 0603 C 15pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-5% SMD
+K
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf
+$ENDCMP
+#
+#End Doc Library

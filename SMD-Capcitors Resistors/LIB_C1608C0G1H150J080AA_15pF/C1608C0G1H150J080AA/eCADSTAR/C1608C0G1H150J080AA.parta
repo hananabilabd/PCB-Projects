@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_341331"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2016-06-28-13:10:42)
+    (utime 2019-07-01-10:15:50)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "C1608C0G1H150J080AA")
+)
+
+
+(pinAssign "ECS_341331"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2016-06-28-13:10:42)
+    (utime 2019-07-01-10:15:50)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_341331")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "C1608C0G1H150J080AA")
+)
+
+
+(part "C1608C0G1H150J080AA"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2016-06-28-13:10:42)
+    (utime 2019-07-01-10:15:50)
+    (packageRef "C1608C0G1H150J080AA")
+    (pinAssignRef "ECS_341331")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "TDK 0603 C 15pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-5% SMD")
+    (property "Manufacturer_Name" "TDK")
+    (property "Manufacturer_Part_Number" "C1608C0G1H150J080AA")
+    (property "Mouser_Part_Number" "810-C1608C0G1H150J")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608C0G1H150J")
+    (property "RS_Part_Number" "7882935")
+    (property "RS_Price/Stock" "https://uk.rs-online.com/web/p/products/7882935")
+    (property "Datasheet_Link" "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf")
+    (property "compAreaTopHeight" 0.8)
+)
+
+

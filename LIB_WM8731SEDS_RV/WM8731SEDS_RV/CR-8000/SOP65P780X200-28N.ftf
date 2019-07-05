@@ -68,6 +68,14 @@
           (connect (pad r180_45))
           (noconnect (pad r180_45))
         )
+        (padSet (footLayer Resist-Top)
+          (connect (pad r180_45))
+          (noconnect (pad r180_45))
+        )
+        (padSet (footLayer MetalMask-Top)
+          (connect (pad r180_45))
+          (noconnect (pad r180_45))
+        )
       )
     ); End of padstacks
     (footprints

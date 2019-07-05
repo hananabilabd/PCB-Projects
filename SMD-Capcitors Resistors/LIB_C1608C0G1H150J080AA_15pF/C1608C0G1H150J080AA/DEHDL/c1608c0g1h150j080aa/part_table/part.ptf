@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C1608C0G1H150J080AA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "C1608C0G1H150J080AA" (!) = "", "CAPC1608X80N", "Capacitor Chip Non-polarised", "810-C1608C0G1H150J", "https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608C0G1H150J", "7882935", "https://uk.rs-online.com/web/p/products/7882935", "TDK 0603 C 15pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-5% SMD", "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf", "0.8 mm"
+END_PART
+
+END.

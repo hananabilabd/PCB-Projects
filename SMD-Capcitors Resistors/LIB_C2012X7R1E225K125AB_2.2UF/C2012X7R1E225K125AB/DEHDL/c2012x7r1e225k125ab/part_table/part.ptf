@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C2012X7R1E225K125AB'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "C2012X7R1E225K125AB" (!) = "", "CAPC2012X145N", "Capacitor Chip Non-polarised", "810-C2012X7R1E225K", "https://www.mouser.com/Search/Refine.aspx?Keyword=810-C2012X7R1E225K", "9159394P", "http://uk.rs-online.com/web/p/products/9159394P", "TDK - C2012X7R1E225K125AB - CAPACITOR, MLCC, X7R, 2.2UF, 25V, 0805", "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf", "1.45 mm"
+END_PART
+
+END.

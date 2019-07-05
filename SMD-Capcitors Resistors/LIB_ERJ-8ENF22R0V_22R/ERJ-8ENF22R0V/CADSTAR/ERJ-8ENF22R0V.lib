@@ -1,0 +1,20 @@
+.ERJ-8ENF22R0V :1 ;RESISTOR, 1206 22 Ohm +/-1 % 0.25 W
+RESC3116X70N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN ERJ-8ENF22R0V
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (ERJ-8ENF22R0V)
+~!Mouser Part Number (667-ERJ-8ENF22R0V)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-8ENF22R0V)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Allied_Number (70268877)
+~!Link Allied Price/Stock (https://www.alliedelec.com/panasonic-erj-8enf22r0v/70268877/)
+~!Link Datasheet (https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf)
+~!Height (0.7mm)
+~!3D_Model (ERJ-8ENF22R0V)
+ERJ-8ENF22R0V
+1.1!U 2.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'WM8731SEDS_RV'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Cirrus Logic", "WM8731SEDS/RV" (!) = "", "SOP65P780X200-28N", "Small Outline Packages", "238-WM8731SEDS/RV", "https://www.mouser.com/Search/Refine.aspx?Keyword=238-WM8731SEDS%2FRV", "", "", "Interface - CODECs Stereo Codec w-H/P", "https://componentsearchengine.com/Datasheets/1/WM8731SEDS_RV.pdf", "2 mm"
+END_PART
+
+END.

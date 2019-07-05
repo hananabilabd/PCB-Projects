@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ERJ_8ENF22R0V'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "ALLIED_NUMBER", "ALLIED_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "ERJ-8ENF22R0V" (!) = "", "RESC3116X70N", "Resistor Chip", "667-ERJ-8ENF22R0V", "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-8ENF22R0V", "", "", "70268877", "https://www.alliedelec.com/panasonic-erj-8enf22r0v/70268877/", "RESISTOR, 1206 22 Ohm +/-1 % 0.25 W", "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf", "0.7 mm"
+END_PART
+
+END.

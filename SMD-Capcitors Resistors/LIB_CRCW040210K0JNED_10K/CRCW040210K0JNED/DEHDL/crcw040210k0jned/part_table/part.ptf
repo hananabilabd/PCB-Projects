@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CRCW040210K0JNED'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "ALLIED_NUMBER", "ALLIED_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "CRCW040210K0JNED" (!) = "", "RESC1005X40N", "Resistor Chip", "71-CRCW0402J-10K-E3", "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0402J-10K-E3", "", "", "70202522", "https://www.alliedelec.com/vishay-dale-crcw040210k0jned/70202522/", "Thick Film Resistors - SMD 1/16watt 10Kohms 5%", "http://www.vishay.com/docs/20035/dcrcwe3.pdf", "0.4 mm"
+END_PART
+
+END.

@@ -1,0 +1,20 @@
+.CRCW040210K0JNED :1 ;Thick Film Resistors - SMD 1/16watt 10Kohms 5%
+RESC1005X40N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CRCW040210K0JNED
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (CRCW040210K0JNED)
+~!Mouser Part Number (71-CRCW0402J-10K-E3)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0402J-10K-E3)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Allied_Number (70202522)
+~!Link Allied Price/Stock (https://www.alliedelec.com/vishay-dale-crcw040210k0jned/70202522/)
+~!Link Datasheet (http://www.vishay.com/docs/20035/dcrcwe3.pdf)
+~!Height (0.4mm)
+~!3D_Model (CRCW040210K0JNED)
+CRCW040210K0JNED
+1.1!U 2.1!U 

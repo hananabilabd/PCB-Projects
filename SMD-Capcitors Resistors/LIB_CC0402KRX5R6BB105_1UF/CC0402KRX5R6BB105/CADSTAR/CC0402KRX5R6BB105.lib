@@ -1,0 +1,17 @@
+.CC0402KRX5R6BB105 :1 ;CAPACITOR, 0402 1uF +/-10% 10V
+CAPC1005X55N
+*STM C
+*NGS
+*PLB 1="C1" 2="C2"
+*MXP 2
+*DFN CC0402KRX5R6BB105
+~!Manufacturer_Name (YAGEO (PHYCOMP))
+~!Manufacturer_Part_Number (CC0402KRX5R6BB105)
+~!Mouser Part Number (603-CC402KRX5R6BB105)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=603-CC402KRX5R6BB105)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (http://componentsearchengine.com/Datasheets/1/CC0402KRX5R6BB105.pdf)
+~!Height (-)
+CC0402KRX5R6BB105
+1.1!U 2.1!U 

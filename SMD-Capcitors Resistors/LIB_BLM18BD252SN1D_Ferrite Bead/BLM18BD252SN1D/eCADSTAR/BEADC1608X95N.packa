@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BLM18BD252SN1D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "BEADC1608X95N")
+        (spec "System")
+    )
+)

@@ -1,7 +1,7 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #SamacSys ECAD Model WM8731SEDS_RV
-#/820881/119480/2.40/28/4/Integrated Circuit
+#/820881/119480/2.43/28/4/Integrated Circuit
 DEF WM8731SEDS_RV IC 0 30 Y Y 1 F N
 F0 "IC" 1250 300 50 H V L CNN
 F1 "WM8731SEDS_RV" 1250 200 50 H V L CNN

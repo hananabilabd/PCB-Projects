@@ -1,0 +1,18 @@
+.C0603C471K3RACTU :1 ;KEMET - C0603C471K3RACTU - CAP, X7R, 470PF, 25V, 0603
+CAPC1608X87N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C0603C471K3RACTU
+~!Manufacturer_Name (Kemet)
+~!Manufacturer_Part_Number (C0603C471K3RACTU)
+~!Mouser Part Number (80-C0603C471K3R)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603C471K3R)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://api.kemet.com/component-edge/download/specsheet/C0603C471K3RACTU.pdf)
+~!Height (0.87mm)
+~!3D_Model (C0603C471K3RACTU)
+C0603C471K3RACTU
+1.1!U 2.1!U 

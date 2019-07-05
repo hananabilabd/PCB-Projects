@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CL21A106KAYNNNE
+#/852254/119480/2.43/2/3/Capacitor
+DEF CL21A106KAYNNNE C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "CL21A106KAYNNNE" 350 150 50 H V L CNN
+F2 "CAPC2012X145N" 350 50 50 H I L CNN
+F3 "http://www.samsungsem.com/kr/support/library/product-catalog/__icsFiles/afieldfile/2017/09/13/MLCC.pdf" 350 -50 50 H I L CNN
+F4 "Samsung" 350 -150 50 H I L CNN "Description"
+F5 "1.45" 350 -250 50 H I L CNN "Height"
+F6 "Samsung Electro-Mechanics" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CL21A106KAYNNNE" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "RS Part Number"
+F11 "" 350 -850 50 H I L CNN "RS Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 B
+X ~ 2 500 0 200 L 50 50 0 0 B
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
