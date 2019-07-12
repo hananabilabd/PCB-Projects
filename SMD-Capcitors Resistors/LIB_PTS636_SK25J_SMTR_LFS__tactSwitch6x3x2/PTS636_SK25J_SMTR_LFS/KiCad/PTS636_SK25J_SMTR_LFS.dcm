@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PTS636_SK25J_SMTR_LFS
+D Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, J leads, No ground pin, Red Actuator
+K
+F https://www.mouser.com/datasheet/2/60/pts636-1550567.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,18 @@
+.PTS636_SK25J_SMTR_LFS :1 ;Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, J leads, No ground pin, Red Actuator
+PTS636SK25JSMTRLFS
+*STM S
+*NGS
+*PLB 1="COM" 2="NO"
+*MXP 2
+*DFN PTS636_SK25J_SMTR_LFS
+~!Manufacturer_Name (C & K COMPONENTS)
+~!Manufacturer_Part_Number (PTS636 SK25J SMTR LFS)
+~!Mouser Part Number (611-PTS636SK25JSMTRL)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=611-PTS636SK25JSMTRL)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://www.mouser.com/datasheet/2/60/pts636-1550567.pdf)
+~!Height (2.7mm)
+~!3D_Model (PTS636_SK25J_SMTR_LFS)
+PTS636_SK25J_SMTR_LFS
+1.1!U 2.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B3U_1000P'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "ALLIED_NUMBER", "ALLIED_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Omron Electronics", "B3U-1000P" (!) = "", "B3U-1000P", "Other", "653-B3U-1000P", "https://www.mouser.com/Search/Refine.aspx?Keyword=653-B3U-1000P", "", "", "70175988", "https://www.alliedelec.com/omron-electronic-components-b3u1000p/70175988/", "OMRON ELECTRONIC COMPONENTS - B3U-1000P - SWITCH, SPST-NO, 0.05A, 12V, SMD", "https://www.omron.com/ecb/products/pdf/en-b3u.pdf"
+END_PART
+
+END.

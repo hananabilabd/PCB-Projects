@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_2093081"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-06-20-08:16:42)
+    (utime 2019-06-21-06:55:06)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "PTS636_SK25J_SMTR_LFS")
+)
+
+
+(pinAssign "ECS_2093081"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-06-20-08:16:42)
+    (utime 2019-06-21-06:55:06)
+    (interface
+        (port "1" (symbPinId 1) (portName "COM") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "NO") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_2093081")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "PTS636_SK25J_SMTR_LFS")
+)
+
+
+(part "PTS636_SK25J_SMTR_LFS"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-06-20-08:16:42)
+    (utime 2019-06-21-06:55:06)
+    (packageRef "PTS636_SK25J_SMTR_LFS")
+    (pinAssignRef "ECS_2093081")
+    (interface
+        (port "1" (symbPinId 1) (portName "COM") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "NO") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "S")
+    (property "description" "Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, J leads, No ground pin, Red Actuator")
+    (property "Manufacturer_Name" "C & K COMPONENTS")
+    (property "Manufacturer_Part_Number" "PTS636 SK25J SMTR LFS")
+    (property "Mouser_Part_Number" "611-PTS636SK25JSMTRL")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=611-PTS636SK25JSMTRL")
+    (property "RS_Part_Number" "")
+    (property "RS_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.mouser.com/datasheet/2/60/pts636-1550567.pdf")
+    (property "compAreaTopHeight" 2.7)
+)
+
+

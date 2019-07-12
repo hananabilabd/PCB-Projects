@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PTS636_SK25J_SMTR_LFS'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "C & K COMPONENTS", "PTS636 SK25J SMTR LFS" (!) = "", "PTS636SK25JSMTRLFS", "Other", "611-PTS636SK25JSMTRL", "https://www.mouser.com/Search/Refine.aspx?Keyword=611-PTS636SK25JSMTRL", "", "", "Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, J leads, No ground pin, Red Actuator", "https://www.mouser.com/datasheet/2/60/pts636-1550567.pdf", "2.7 mm"
+END_PART
+
+END.
