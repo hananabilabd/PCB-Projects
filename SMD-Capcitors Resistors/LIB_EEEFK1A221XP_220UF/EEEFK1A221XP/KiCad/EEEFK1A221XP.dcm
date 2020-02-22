@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EEEFK1A221XP
+D Ecap 220uF 10V D8 Case FK SMD Panasonic 220uF 10 V dc Aluminium Electrolytic Capacitor, FK SMD Series 2000h 6.3 Dia. x 7.7mm
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf
+$ENDCMP
+#
+#End Doc Library

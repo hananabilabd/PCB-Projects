@@ -1,0 +1,69 @@
+(Japanese_coding: sjis)
+(function "ECS_173243"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-07-10-11:32:49)
+    (utime 2018-06-06-11:10:46)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "EEEFK1A221XP")
+)
+
+
+(pinAssign "ECS_173243"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-07-10-11:32:49)
+    (utime 2018-06-06-11:10:46)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_173243")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "EEEFK1A221XP")
+)
+
+
+(part "EEEFK1A221XP"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-07-10-11:32:49)
+    (utime 2018-06-06-11:10:46)
+    (packageRef "EEEFK1A221XP")
+    (pinAssignRef "ECS_173243")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Ecap 220uF 10V D8 Case FK SMD Panasonic 220uF 10 V dc Aluminium Electrolytic Capacitor, FK SMD Series 2000h 6.3 Dia. x 7.7mm")
+    (property "Manufacturer_Name" "Panasonic")
+    (property "Manufacturer_Part_Number" "EEEFK1A221XP")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "RS_Part_Number" "7083342P")
+    (property "RS_Price/Stock" "http://uk.rs-online.com/web/p/products/7083342P")
+    (property "Allied_Number" "70258205")
+    (property "Allied_Price/Stock" "https://www.alliedelec.com/panasonic-eee-fk1a221xp/70258205/")
+    (property "Datasheet_Link" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf")
+)
+
+

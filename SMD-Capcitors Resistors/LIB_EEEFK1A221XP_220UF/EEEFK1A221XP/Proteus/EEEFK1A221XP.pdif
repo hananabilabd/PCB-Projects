@@ -1,0 +1,123 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "EEEFK1A221XP"
+   (description "Ecap 220uF 10V D8 Case FK SMD Panasonic 220uF 10 V dc Aluminium Electrolytic Capacitor, FK SMD Series 2000h 6.3 Dia. x 7.7mm")
+   (family "CAP")
+   (package "FKSV(D8)")
+   (attribute "Datasheet Link" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf")
+   (attribute "Manufacturer_Name" "Panasonic")
+   (attribute "Manufacturer_Part_Number" "EEEFK1A221XP")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "RS Part Number" "7083342P")
+   (attribute "RS Price/Stock" "http://uk.rs-online.com/web/p/products/7083342P")
+   (attribute "Allied_Number" "70258205")
+   (attribute "Allied Price/Stock" "https://www.alliedelec.com/panasonic-eee-fk1a221xp/70258205/")
+   (gate
+    (symbol "EEEFK1A221XP")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "EEEFK1A221XP"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "FKSV(D8)"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -3.3 3.3)
+      (pt 3.3 3.3)
+      (pt 3.3 -3.3)
+      (pt -3.3 -3.3)
+      (pt -3.3 3.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -3.3 3.3)
+      (pt 3.3 3.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt 3.3 -3.3)
+      (pt -3.3 -3.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -3.3 -3.3)
+      (pt -3.3 -1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -3.3 3.3)
+      (pt -3.3 1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt 3.3 3.3)
+      (pt 3.3 1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt 3.3 -3.3)
+      (pt 3.3 -1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt -5.53439 -0.007) (pt -5.32761 -0.007)
+     )
+    )
+   )
+   (leg 1 (pt -2.5 0) (padstack 0))
+   (leg 2 (pt 2.5 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.6 3.4 0 0 0))
+   )
+  )
+ )
+)

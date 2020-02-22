@@ -1946,6 +1946,31 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 </package>
 </packages>
 </library>
+<library name="EEEFK1A221XP">
+<description>&lt;Ecap 220uF 10V D8 Case FK SMD Panasonic 220uF 10 V dc Aluminium Electrolytic Capacitor, FK SMD Series 2000h 6.3 Dia. x 7.7mm&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="FKSV(D8)">
+<description>&lt;b&gt;FKSV(D8)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.5" y="0" dx="3.4" dy="1.6" layer="1"/>
+<smd name="2" x="2.5" y="0" dx="3.4" dy="1.6" layer="1"/>
+<text x="-0.361" y="0.069" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="-0.361" y="0.069" size="1.27" layer="25" align="center">&gt;NAME</text>
+<wire x1="-3.3" y1="3.3" x2="3.3" y2="3.3" width="0.254" layer="51"/>
+<wire x1="3.3" y1="3.3" x2="3.3" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="3.3" y1="-3.3" x2="-3.3" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="-3.3" y1="-3.3" x2="-3.3" y2="3.3" width="0.254" layer="51"/>
+<wire x1="-3.3" y1="3.3" x2="3.3" y2="3.3" width="0.254" layer="21"/>
+<wire x1="3.3" y1="-3.3" x2="-3.3" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="-3.3" y1="-3.3" x2="-3.3" y2="-1.2" width="0.254" layer="21"/>
+<wire x1="-3.3" y1="3.3" x2="-3.3" y2="1.2" width="0.254" layer="21"/>
+<wire x1="3.3" y1="3.3" x2="3.3" y2="1.2" width="0.254" layer="21"/>
+<wire x1="3.3" y1="-3.3" x2="3.3" y2="-1.2" width="0.254" layer="21"/>
+<circle x="-5.431" y="-0.007" radius="0.103390625" width="0.254" layer="25"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2647,6 +2672,20 @@ design rules under a new name.</description>
 <element name="JP13" library="F405Pill" package="1X1-HEADER-HOLE" value="" x="25.75" y="31">
 <attribute name="VALUE" x="27.274" y="31" size="0.889" layer="121" ratio="10"/>
 <attribute name="VALUE" x="27.274" y="31" size="0.889" layer="122" ratio="10" rot="MR180"/>
+</element>
+<element name="C23" library="EEEFK1A221XP" package="FKSV(D8)" value="EEEFK1A221XP" x="2.9" y="-22.3">
+<attribute name="ALLIED_NUMBER" value="70258205" x="2.9" y="-22.3" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-eee-fk1a221xp/70258205/" x="2.9" y="-22.3" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Ecap 220uF 10V D8 Case FK SMD Panasonic 220uF 10 V dc Aluminium Electrolytic Capacitor, FK SMD Series 2000h 6.3 Dia. x 7.7mm" x="2.9" y="-22.3" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="2.9" y="-22.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="2.9" y="-22.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EEEFK1A221XP" x="2.9" y="-22.3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="2.9" y="-22.3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="2.9" y="-22.3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="2.539" y="-22.231" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="7083342P" x="2.9" y="-22.3" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7083342P" x="2.9" y="-22.3" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="2.539" y="-22.231" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
