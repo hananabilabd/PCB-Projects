@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32F413MGY6TR
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=81
+Version=1.1
+Released=2020-06-08 22:06:34
+Downloaded=2020-06-08 22:13:33
+3D=Y

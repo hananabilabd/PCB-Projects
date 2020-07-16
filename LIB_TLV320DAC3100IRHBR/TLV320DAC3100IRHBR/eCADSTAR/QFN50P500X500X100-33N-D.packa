@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TLV320DAC3100IRHBR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-08-08-03:50:29)
+    (mountForm default
+        (footprintRef "QFN50P500X500X100-33N-D")
+        (spec "System")
+    )
+)

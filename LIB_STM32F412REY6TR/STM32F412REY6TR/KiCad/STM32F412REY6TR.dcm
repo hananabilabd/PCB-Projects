@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F412REY6TR
+D MCU 32-bit STM32F ARM Cortex M4 RISC 512KB Flash 3.3V 64-Pin WLCSP T/R
+K
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/15/90/07/b3/8c/10/4e/95/DM00213872.pdf/files/DM00213872.pdf/jcr:content/translations/en.DM00213872.pdf
+$ENDCMP
+#
+#End Doc Library

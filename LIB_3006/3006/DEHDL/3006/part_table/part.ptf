@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '3006'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Adafruit", "3006" (!) = "", "3006", "Other", "3006", "https://www.arrow.com/en/products/3006/adafruit-industries", "485-3006", "https://www.mouser.co.uk/ProductDetail/Adafruit/3006?qs=SV%252B0z0o3NTtodS8r%2Ftqo5A%3D%3D", "Amplifier IC Development Tools I2S 3W Class D Amp Breakout MAX98357A", "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-max98357-i2s-class-d-mono-amp.pdf", "3 mm"
+END_PART
+
+END.

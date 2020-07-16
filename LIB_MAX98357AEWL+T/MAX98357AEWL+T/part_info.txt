@@ -1,0 +1,9 @@
+Manufacturer=Maxim Integrated
+PartNumber=MAX98357AEWL+T
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=9
+Version=1.1
+Released=2017-09-14 22:45:40
+Downloaded=2020-06-15 15:13:06
+3D=Y

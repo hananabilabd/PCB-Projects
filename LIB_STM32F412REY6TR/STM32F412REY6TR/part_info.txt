@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32F412REY6TR
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=64
+Version=1.1
+Released=2020-06-08 22:01:01
+Downloaded=2020-06-08 22:18:43
+3D=Y

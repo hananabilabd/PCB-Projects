@@ -1,0 +1,83 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+STM32F412REY6TR BGA64C40P8X8_362X365X58 I ANA 9 1 0 0 0
+TIMESTAMP 2020.06.08.22.18.43
+"Manufacturer_Name" STMicroelectronics
+"Manufacturer_Part_Number" STM32F412REY6TR
+"Arrow Part Number" STM32F412REY6TR
+"Arrow Price/Stock" https://www.arrow.com/en/products/stm32f412rey6tr/stmicroelectronics
+"Mouser Part Number" 511-STM32F412REY6TR
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F412REY6TR?qs=qzCNEk%252BRr%252BY9qzpOClZyHQ%3D%3D
+"Description" MCU 32-bit STM32F ARM Cortex M4 RISC 512KB Flash 3.3V 64-Pin WLCSP T/R
+"Datasheet Link" http://www.st.com/content/ccc/resource/technical/document/datasheet/15/90/07/b3/8c/10/4e/95/DM00213872.pdf/files/DM00213872.pdf/jcr:content/translations/en.DM00213872.pdf
+"Geometry.Height" 0.585mm
+GATE 1 64 0
+STM32F412REY6TR
+A1 0 U VDD_1
+A2 0 U PA15
+A3 0 U PC12
+A4 0 U PD2
+A5 0 U PB3
+A6 0 U PB7
+A7 0 U VSS_1
+A8 0 U VDD_2
+B1 0 U VSS_2
+B2 0 U PA14
+B3 0 U PC11
+B4 0 U PB4
+B5 0 U PB6
+B6 0 U PB9
+B7 0 U VBAT
+B8 0 U PC13
+C1 0 U PA12
+C2 0 U PA13
+C3 0 U PC10
+C4 0 U PB5
+C5 0 U PB8
+C6 0 U PDR_ON
+C7 0 U PC15-OSC32_OUT
+C8 0 U PC14-OSC32_IN
+D1 0 U PA9
+D2 0 U PA10
+D3 0 U PA11
+D4 0 U BOOT0
+D5 0 U PC0
+D6 0 U PC3
+D7 0 U NRST
+D8 0 U PH0-OSC_IN
+E1 0 U PC7
+E2 0 U PC9
+E3 0 U PA8
+E4 0 U PC4
+E5 0 U PA7
+E6 0 U PA0
+E7 0 U PC2
+E8 0 U PH1-OSC-OUT
+F1 0 U PC6
+F2 0 U PB15
+F3 0 U PC8
+F4 0 U PB1
+F5 0 U PA5
+F6 0 U PA3
+F7 0 U VDDA/VREF+
+F8 0 U PC1
+G1 0 U PB14
+G2 0 U PB13
+G3 0 U PB12
+G4 0 U PB2
+G5 0 U PC5
+G6 0 U PA4
+G7 0 U PA1
+G8 0 U VSSA/VREF-
+H1 0 U VDD_3
+H2 0 U VSS_3
+H3 0 U VCAP_1
+H4 0 U PB10
+H5 0 U PB0
+H6 0 U PA6
+H7 0 U VDD_4
+H8 0 U PA2
+
+*END*
+*REMARK* SamacSys ECAD Model
+899808/119480/2.46/64/4/Integrated Circuit

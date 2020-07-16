@@ -1,0 +1,18 @@
+.3006 :1 ;Amplifier IC Development Tools I2S 3W Class D Amp Breakout MAX98357A
+"3006"
+*STM IC
+*NGS
+*PLB 1="LRC" 2="BCLK" 3="DIN" 4="GAIN" 5="SD" 6="GND" 7="VIN" 8="8" 9="9"
+*MXP 9
+*DFN 3006
+~!Manufacturer_Name (Adafruit)
+~!Manufacturer_Part_Number (3006)
+~!Arrow Part Number (3006)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/3006/adafruit-industries)
+~!Mouser Part Number (485-3006)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Adafruit/3006?qs=SV%252B0z0o3NTtodS8r%2Ftqo5A%3D%3D)
+~!Link Datasheet (https://cdn-learn.adafruit.com/downloads/pdf/adafruit-max98357-i2s-class-d-mono-amp.pdf)
+~!Height (3mm)
+~!3D_Model (3006)
+"3006"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 

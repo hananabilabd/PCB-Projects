@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV320DAC3120IRHBR
+D Low-Power Mono Audio DAC With Embedded miniDSP  and Mono Class-D Speaker Amplifier
+K
+F http://www.ti.com/lit/gpn/tlv320dac3120
+$ENDCMP
+#
+#End Doc Library

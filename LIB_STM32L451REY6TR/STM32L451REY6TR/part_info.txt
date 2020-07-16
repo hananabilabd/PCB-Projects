@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32L451REY6TR
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=64
+Version=1.1
+Released=2020-04-20 11:54:36
+Downloaded=2020-06-09 01:09:24
+3D=Y

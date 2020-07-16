@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM32L451REY6TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STM32L451REY6TR" (!) = "", "BGA64C40P8X8_336X366X58", "BGA", "511-STM32L451REY6TR", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32L451REY6TR?qs=Mv7BduZupUg2YTQ5MbUYvA%3D%3D", "ARM Microcontrollers - MCU 16/32-BITS MICROS", "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/95/fa/32/09/46/cb/45/35/DM00340475/files/DM00340475.pdf/jcr:content/translations/en.DM00340475.pdf", "0.585 mm"
+END_PART
+
+END.

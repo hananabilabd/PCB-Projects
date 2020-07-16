@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STM32F412REY6TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-06-08-22:01:01)
+    (mountForm default
+        (footprintRef "BGA64C40P8X8_362X365X58")
+        (spec "System")
+    )
+)

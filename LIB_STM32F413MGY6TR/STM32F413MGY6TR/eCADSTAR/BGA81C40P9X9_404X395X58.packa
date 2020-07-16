@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STM32F413MGY6TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-06-21-13:30:26)
+    (mountForm default
+        (footprintRef "BGA81C40P9X9_404X395X58")
+        (spec "System")
+    )
+)
