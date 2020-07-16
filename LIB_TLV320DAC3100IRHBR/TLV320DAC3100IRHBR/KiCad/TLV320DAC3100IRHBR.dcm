@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TLV320DAC3100IRHBR
-D Low-Power Stereo Audio DAC With Mono Class-D Speaker Amplifier
-K
-F http://www.ti.com/lit/gpn/tlv320dac3100
-$ENDCMP
-#
-#End Doc Library
