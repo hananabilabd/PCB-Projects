@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,18 +23,18 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -55,10 +55,10 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="yes"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="yes"/>
@@ -2162,7 +2162,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603C104M4R7411" x="23.84" y="10.57" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="23.84" y="10.57" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="23.84" y="10.57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="25.491" y="13.618" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C2" library="C1608C0G1H150J080AA_15pF" package="CAPC1608X80N" value="22P" x="31.01" y="19.94" smashed="yes">
 <attribute name="DESCRIPTION" value="TDK 0603 C 15pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-5% SMD" x="31.01" y="19.94" size="1.778" layer="27" display="off"/>
@@ -2261,7 +2260,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0402-22-E3" x="19.72" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PART_NUMBER" value="6788983P" x="19.72" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6788983P" x="19.72" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="17.4086" y="19.6336" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C8" library="C0603C104M4RAC7411" package="CAPC1608X95N" value="100n" x="24.89" y="12.54" smashed="yes">
 <attribute name="DESCRIPTION" value="KEMET - C0603C104M4RAC7411 - CAP, 0.1F, 16V, 20%, X7R, 0603" x="24.89" y="12.54" size="1.778" layer="27" display="off"/>
@@ -2354,7 +2352,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-MP34DT05TR-A" x="24.66" y="25.38" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="24.66" y="25.38" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="24.66" y="25.38" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="4.34" y="29.19" size="1.27" layer="27" align="center"/>
 </element>
 <element name="MK2" library="MP34DT05TR-A" package="MP34DT05TRA" value="MP34DT05TR-A" x="32.2" y="29.4" smashed="yes">
 <attribute name="DESCRIPTION" value="STMICROELECTRONICS - MP34DT05TR-A - MEMS MICROPHONE, 3.6V, HCLGA-4" x="28.95" y="36.15" size="1.778" layer="27" display="off"/>
@@ -2365,7 +2362,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-MP34DT05TR-A" x="28.95" y="36.15" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="28.95" y="36.15" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="28.95" y="36.15" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="28.95" y="36.15" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C33" library="C0603C104M4RAC7411" package="CAPC1608X95N" value="100nf" x="7.5" y="30.3" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="KEMET - C0603C104M4RAC7411 - CAP, 0.1F, 16V, 20%, X7R, 0603" x="7.5" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2428,7 +2424,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="19.15" y="29.35" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="19.15" y="29.35" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="19.15" y="29.35" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="19.15" y="29.35" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C13" library="C0603C104M4RAC7411" package="CAPC1608X95N" value="100n" x="26.4" y="10.25" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="KEMET - C0603C104M4RAC7411 - CAP, 0.1F, 16V, 20%, X7R, 0603" x="55.7" y="-17.65" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2439,7 +2434,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603C104M4R7411" x="55.7" y="-17.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="55.7" y="-17.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="55.7" y="-17.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="55.7" y="-17.65" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C14" library="C0603C104M4RAC7411" package="CAPC1608X95N" value="100n" x="25.9" y="3.4" smashed="yes">
 <attribute name="DESCRIPTION" value="KEMET - C0603C104M4RAC7411 - CAP, 0.1F, 16V, 20%, X7R, 0603" x="14.3" y="31.3" size="1.778" layer="27" display="off"/>
@@ -2461,7 +2455,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603C104M4R7411" x="68" y="-2.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="68" y="-2.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="68" y="-2.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="68" y="-2.25" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R4" library="CR0603-JW-472ELF" package="RESC1608X55N" value="CR0603-JW-472ELF" x="38.75" y="7.05" smashed="yes" rot="R180">
 <attribute name="ALLIED_NUMBER" value="70154691" x="63.25" y="-11.65" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2474,7 +2467,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-JW-472ELF" x="63.25" y="-11.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PART_NUMBER" value="7408956P" x="63.25" y="-11.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408956P" x="63.25" y="-11.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="63.25" y="-11.65" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R7" library="CR0603-JW-472ELF" package="RESC1608X55N" value="CR0603-JW-472ELF" x="38.75" y="5.45" smashed="yes" rot="R180">
 <attribute name="ALLIED_NUMBER" value="70154691" x="68.2" y="-13.25" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2487,7 +2479,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-JW-472ELF" x="68.2" y="-13.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PART_NUMBER" value="7408956P" x="68.2" y="-13.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408956P" x="68.2" y="-13.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="68.2" y="-13.25" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="J2" library="1503_02" package="150302" value="1503_02" x="48.7" y="6.25" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="LUMBERG - 1503 02 - CONNECTOR, RECEPTACLE, 3.5MM PHONO, 3WAY" x="78.1" y="17.75" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2498,7 +2489,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="78.1" y="17.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="78.1" y="17.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="78.1" y="17.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="78.1" y="17.75" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="220UF" x="44.25" y="16.1" smashed="yes">
 <attribute name="SPICEPREFIX" value="C" x="44.25" y="16.1" size="1.778" layer="27" display="off"/>
@@ -2519,7 +2509,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-JW-472ELF" x="48.45" y="14.95" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PART_NUMBER" value="7408956P" x="48.45" y="14.95" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408956P" x="48.45" y="14.95" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="48.45" y="14.95" size="1.27" layer="27" align="center"/>
 </element>
 <element name="R9" library="CR0603-JW-472ELF" package="RESC1608X55N" value="CR0603-JW-472ELF" x="48.45" y="13.4" smashed="yes">
 <attribute name="ALLIED_NUMBER" value="70154691" x="48.45" y="13.4" size="1.778" layer="27" display="off"/>
@@ -2532,7 +2521,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-JW-472ELF" x="48.45" y="13.4" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PART_NUMBER" value="7408956P" x="48.45" y="13.4" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408956P" x="48.45" y="13.4" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="48.45" y="13.4" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C18" library="CC0402KRX5R6BB105_1UF" package="CAPC1005X55N" value="1UF" x="8.55" y="30.3" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="CAPACITOR, 0402 1uF +/-10% 10V" x="8.55" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2554,7 +2542,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-BLM18BD252SN1D" x="19.95" y="2.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PART_NUMBER" value="7241321P" x="19.95" y="2.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7241321P" x="19.95" y="2.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="19.95" y="2.7" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C19" library="C0603C104M4RAC7411_100nF" package="CAPC1608X95N" value="C0603C104M4RAC7411" x="23.55" y="2.6" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="KEMET - C0603C104M4RAC7411 - CAP, 0.1F, 16V, 20%, X7R, 0603" x="23.55" y="2.6" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2565,7 +2552,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603C104M4R7411" x="23.55" y="2.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="23.55" y="2.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="23.55" y="2.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="23.55" y="2.6" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C20" library="CL21A106KAYNNNE_10uF" package="CAPC2012X145N" value="CL21A106KAYNNNE_10UF" x="21.8" y="2.65" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Samsung" x="21.8" y="2.65" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2576,7 +2562,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" x="21.8" y="2.65" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="21.8" y="2.65" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="21.8" y="2.65" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="21.8" y="2.65" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C21" library="CL21A106KAYNNNE_10uF" package="CAPC2012X145N" value="CL21A106KAYNNNE" x="38.65" y="2.45" smashed="yes">
 <attribute name="DESCRIPTION" value="Samsung" x="38.65" y="2.45" size="1.778" layer="27" display="off"/>
@@ -2587,7 +2572,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" x="38.65" y="2.45" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="38.65" y="2.45" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="38.65" y="2.45" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="38.65" y="2.45" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C22" library="C0603C104M4RAC7411_100nF" package="CAPC1608X95N" value="C0603C104M4RAC7411" x="38.6" y="3.95" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="KEMET - C0603C104M4RAC7411 - CAP, 0.1F, 16V, 20%, X7R, 0603" x="38.6" y="3.95" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2598,7 +2582,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603C104M4R7411" x="38.6" y="3.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="38.6" y="3.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="38.6" y="3.95" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="38.6" y="3.95" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="JP11" library="F405Pill" package="1X1-HEADER-HOLE" value="" x="14.5" y="2.5" smashed="yes">
 <attribute name="VALUE" x="16.024" y="2.5" size="0.889" layer="121" ratio="10"/>
@@ -2614,7 +2597,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.75" y="18.9" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="29.6" y="23.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="29.6" y="23.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="29.6" y="23.4" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="S1" library="PTS636_SK25J_SMTR_LFS_tactSwitch6x3x2" package="PTS636SK25JSMTRLFS" value="PTS636_SK25J_SMTR_LFS" x="38.2" y="18" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, J leads, No ground pin, Red Actuator" x="38.2" y="18" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2625,7 +2607,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=611-PTS636SK25JSMTRL" x="38.2" y="18" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="38.2" y="18" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="38.2" y="18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="38.2" y="18" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="JP12" library="F405Pill" package="1X1-HEADER-HOLE" value="" x="23.2" y="31" smashed="yes">
 <attribute name="VALUE" x="24.724" y="31" size="0.889" layer="121" ratio="10"/>
