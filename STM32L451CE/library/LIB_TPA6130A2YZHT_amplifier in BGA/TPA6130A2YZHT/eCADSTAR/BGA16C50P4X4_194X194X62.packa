@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPA6130A2YZHT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-11-22-09:36:41)
+    (mountForm default
+        (footprintRef "BGA16C50P4X4_194X194X62")
+        (spec "System")
+    )
+)

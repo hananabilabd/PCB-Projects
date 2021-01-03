@@ -1,0 +1,19 @@
+.TPA6130A2YZHT :1 ;138-mW DirectPath Stereo Headphone Amplifier with I2C Volume Control (TPA6130)
+BGA16C50P4X4_194X194X62
+*STM IC
+*NGS
+*PNM 1=A1 2=A2 3=A3 4=A4 5=B1 6=B2 7=B3 8=B4 9=C1 10=C2 11=C3 12=C4 13=D1 14=D2 15=D3 16=D4
+*PLB 1="CPN" 2="CPP" 3="GND_1" 4="VDD_1" 5="HPLEFT" 6="CPVSS" 7="LEFTINP" 8="LEFTINM" 9="VDD_2" 10="GND_2" 11="RIGHTINP" 12="RIGHTINM" 13="HPRIGHT" 14="SCL" 15="SDA" 16="'SD'"
+*MXP 16
+*DFN TPA6130A2YZHT
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPA6130A2YZHT)
+~!Arrow Part Number (TPA6130A2YZHT)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tpa6130a2yzht/texas-instruments)
+~!Mouser Part Number (595-TPA6130A2YZHT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPA6130A2YZHT?qs=sPPKN8MmjEqFy6cmPbRxcA%3D%3D)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tpa6130a2)
+~!Height (0.625mm)
+~!3D_Model (TPA6130A2YZHT)
+TPA6130A2YZHT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 

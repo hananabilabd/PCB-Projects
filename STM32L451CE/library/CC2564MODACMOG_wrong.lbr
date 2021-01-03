@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/296975/154477/2.47/35/4/Integrated Circuit/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;Dual-mode Bluetooth&amp;#174; CC2564 module with integrated antenna&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="MOG0035A">
+<description>&lt;b&gt;MOG0035A&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-6.55" y="-2.25" dx="0.6" dy="0.5" layer="1" rot="R0"/>
+<smd name="2" x="-6.55" y="-1.35" dx="0.6" dy="0.5" layer="1" rot="R0"/>
+<smd name="3" x="-6.55" y="-0.45" dx="0.6" dy="0.5" layer="1" rot="R0"/>
+<smd name="4" x="-6.55" y="0.45" dx="0.6" dy="0.5" layer="1" rot="R0"/>
+<smd name="5" x="-6.55" y="1.35" dx="0.6" dy="0.5" layer="1" rot="R0"/>
+<smd name="6" x="-6.55" y="2.25" dx="0.6" dy="0.5" layer="1" rot="R0"/>
+<smd name="7" x="-5.75" y="3.1" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="8" x="-4.85" y="3.1" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="9" x="-3.95" y="3.1" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="10" x="-3.05" y="3.1" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="11" x="-2.15" y="3.1" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="12" x="-1.25" y="3.1" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="13" x="-0.35" y="2.25" dx="0.6" dy="0.5" layer="1" rot="R0"/>
+<smd name="14" x="-0.35" y="1.35" dx="0.6" dy="0.5" layer="1" rot="R0"/>
+<smd name="15" x="-0.35" y="0.45" dx="0.6" dy="0.5" layer="1" rot="R0"/>
+<smd name="16" x="-0.35" y="-0.45" dx="0.6" dy="0.5" layer="1" rot="R0"/>
+<smd name="17" x="-0.35" y="-1.35" dx="0.6" dy="0.5" layer="1" rot="R0"/>
+<smd name="18" x="-0.35" y="-2.25" dx="0.6" dy="0.5" layer="1" rot="R0"/>
+<smd name="19" x="-1.25" y="-3.1" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="20" x="-2.15" y="-3.1" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="21" x="-3.05" y="-3.1" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="22" x="-3.95" y="-3.1" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="23" x="-4.85" y="-3.1" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="24" x="-5.75" y="-3.1" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<pad name="25" x="-5.1" y="0" drill="0.2" diameter="1.1" shape="square"/>
+<pad name="26" x="-3.5" y="1.6" drill="0.2" diameter="1.1" shape="square"/>
+<pad name="27" x="-3.5" y="0" drill="0.2" diameter="1.1" shape="square"/>
+<pad name="28" x="-3.5" y="-1.6" drill="0.2" diameter="1.1" shape="square"/>
+<pad name="29" x="-1.9" y="0" drill="0.2" diameter="1.1" shape="square"/>
+<smd name="30" x="-6.55" y="-3.1" dx="0.5" dy="0.5" layer="1" rot="R0"/>
+<smd name="31" x="-6.55" y="3.1" dx="0.5" dy="0.5" layer="1" rot="R0"/>
+<smd name="32" x="-0.35" y="3.1" dx="0.5" dy="0.5" layer="1" rot="R0"/>
+<smd name="33" x="-0.35" y="-3.1" dx="0.5" dy="0.5" layer="1" rot="R0"/>
+<smd name="34" x="4.425" y="-3.135" dx="4.85" dy="0.43" layer="1" rot="R0"/>
+<smd name="35" x="4.425" y="3.15" dx="4.85" dy="0.43" layer="1" rot="R0"/>
+<text x="5.61352" y="-10.617" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<text x="5.61352" y="-10.617" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<wire x1="-7.05" y1="-3.55" x2="7.05" y2="-3.55" width="0.2" layer="51"/>
+<wire x1="7.05" y1="-3.55" x2="7.05" y2="3.55" width="0.2" layer="51"/>
+<wire x1="7.05" y1="3.55" x2="-7.05" y2="3.55" width="0.2" layer="51"/>
+<wire x1="-7.05" y1="3.55" x2="-7.05" y2="-3.55" width="0.2" layer="51"/>
+<wire x1="-7.05" y1="3.55" x2="7.05" y2="3.55" width="0.1" layer="21"/>
+<wire x1="7.05" y1="3.55" x2="7.05" y2="-3.55" width="0.1" layer="21"/>
+<wire x1="7.05" y1="-3.55" x2="-7.05" y2="-3.55" width="0.1" layer="21"/>
+<wire x1="-7.05" y1="-3.55" x2="-7.05" y2="3.55" width="0.1" layer="21"/>
+<circle x="-7.5" y="-2.25" radius="0.07071" width="0.2" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CC2564MODACMOG">
+<wire x1="5.08" y1="2.54" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-45.72" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-45.72" x2="5.08" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-45.72" width="0.254" layer="94"/>
+<text x="39.37" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="39.37" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="HCI_CTS" x="0" y="0" length="middle" direction="in" rot="R0"/>
+<pin name="HCI_TX" x="0" y="-2.54" length="middle" direction="out" rot="R0"/>
+<pin name="HCI_RX" x="0" y="-5.08" length="middle" direction="in" rot="R0"/>
+<pin name="HCI_RTS" x="0" y="-7.62" length="middle" direction="out" rot="R0"/>
+<pin name="GND_1" x="0" y="-10.16" length="middle" direction="pwr" rot="R0"/>
+<pin name="NC_1" x="0" y="-12.7" length="middle" direction="io" rot="R0"/>
+<pin name="GND_2" x="0" y="-15.24" length="middle" direction="pwr" rot="R0"/>
+<pin name="SLOW_CLK_IN" x="0" y="-17.78" length="middle" direction="in" rot="R0"/>
+<pin name="GND_3" x="0" y="-20.32" length="middle" direction="pwr" rot="R0"/>
+<pin name="NC_2" x="0" y="-22.86" length="middle" direction="io" rot="R0"/>
+<pin name="NC_3" x="0" y="-25.4" length="middle" direction="io" rot="R0"/>
+<pin name="VDD_IN" x="0" y="-27.94" length="middle" direction="in" rot="R0"/>
+<pin name="GND_4" x="0" y="-30.48" length="middle" direction="pwr" rot="R0"/>
+<pin name="NC_4" x="0" y="-33.02" length="middle" direction="io" rot="R0"/>
+<pin name="GND_5" x="0" y="-35.56" length="middle" direction="pwr" rot="R0"/>
+<pin name="NSHUTD" x="0" y="-38.1" length="middle" direction="in" rot="R0"/>
+<pin name="GND_6" x="0" y="-40.64" length="middle" direction="pwr" rot="R0"/>
+<pin name="VDD_IO" x="0" y="-43.18" length="middle" direction="io" rot="R0"/>
+<pin name="AUD_IN" x="43.18" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="AUD_OUT" x="43.18" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="AUD_CLK" x="43.18" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="AUD_FSYNC" x="43.18" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="NC_5" x="43.18" y="-10.16" length="middle" direction="io" rot="R180"/>
+<pin name="TX_DBG" x="43.18" y="-12.7" length="middle" direction="out" rot="R180"/>
+<pin name="GNDPAD_1" x="43.18" y="-15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="GNDPAD_2" x="43.18" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="GNDPAD_3" x="43.18" y="-20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="GNDPAD_4" x="43.18" y="-22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="GNDPAD_5" x="43.18" y="-25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="GNDPAD_6" x="43.18" y="-27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="GNDPAD_7" x="43.18" y="-30.48" length="middle" direction="pwr" rot="R180"/>
+<pin name="GNDPAD_8" x="43.18" y="-33.02" length="middle" direction="pwr" rot="R180"/>
+<pin name="GNDPAD_9" x="43.18" y="-35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="GNDPAD_10" x="43.18" y="-38.1" length="middle" direction="pwr" rot="R180"/>
+<pin name="GNDPAD_11" x="43.18" y="-40.64" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CC2564MODACMOG" prefix="IC">
+<description>&lt;b&gt;Dual-mode Bluetooth&amp;#174; CC2564 module with integrated antenna&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/ds/symlink/cc2564moda.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CC2564MODACMOG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOG0035A">
+<connects>
+<connect gate="G$1" pin="HCI_CTS" pad="1"/>
+<connect gate="G$1" pin="HCI_TX" pad="2"/>
+<connect gate="G$1" pin="HCI_RX" pad="3"/>
+<connect gate="G$1" pin="HCI_RTS" pad="4"/>
+<connect gate="G$1" pin="GND_1" pad="5"/>
+<connect gate="G$1" pin="NC_1" pad="6"/>
+<connect gate="G$1" pin="GND_2" pad="7"/>
+<connect gate="G$1" pin="SLOW_CLK_IN" pad="8"/>
+<connect gate="G$1" pin="GND_3" pad="9"/>
+<connect gate="G$1" pin="NC_2" pad="10"/>
+<connect gate="G$1" pin="NC_3" pad="11"/>
+<connect gate="G$1" pin="VDD_IN" pad="12"/>
+<connect gate="G$1" pin="GND_4" pad="13"/>
+<connect gate="G$1" pin="NC_4" pad="14"/>
+<connect gate="G$1" pin="GND_5" pad="15"/>
+<connect gate="G$1" pin="NSHUTD" pad="16"/>
+<connect gate="G$1" pin="GND_6" pad="17"/>
+<connect gate="G$1" pin="VDD_IO" pad="18"/>
+<connect gate="G$1" pin="AUD_IN" pad="19"/>
+<connect gate="G$1" pin="AUD_OUT" pad="20"/>
+<connect gate="G$1" pin="AUD_CLK" pad="21"/>
+<connect gate="G$1" pin="AUD_FSYNC" pad="22"/>
+<connect gate="G$1" pin="NC_5" pad="23"/>
+<connect gate="G$1" pin="TX_DBG" pad="24"/>
+<connect gate="G$1" pin="GNDPAD_1" pad="25"/>
+<connect gate="G$1" pin="GNDPAD_2" pad="26"/>
+<connect gate="G$1" pin="GNDPAD_3" pad="27"/>
+<connect gate="G$1" pin="GNDPAD_4" pad="28"/>
+<connect gate="G$1" pin="GNDPAD_5" pad="29"/>
+<connect gate="G$1" pin="GNDPAD_6" pad="30"/>
+<connect gate="G$1" pin="GNDPAD_7" pad="31"/>
+<connect gate="G$1" pin="GNDPAD_8" pad="32"/>
+<connect gate="G$1" pin="GNDPAD_9" pad="33"/>
+<connect gate="G$1" pin="GNDPAD_10" pad="34"/>
+<connect gate="G$1" pin="GNDPAD_11" pad="35"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Manufacturer_Name" value="Texas Instruments" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="CC2564MODACMOG" constant="no"/>
+<attribute name="Arrow_Part_Number" value="CC2564MODACMOG" constant="no"/>
+<attribute name="Arrow_Price-Stock" value="https://www.arrow.com/en/products/cc2564modacmog/texas-instruments" constant="no"/>
+<attribute name="Mouser_Part_Number" value="595-CC2564MODACMOG" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CC2564MODACMOG?qs=tCMd4XlZ%2FiD0qx2OJWZ%2FcQ%3D%3D" constant="no"/>
+<attribute name="Description" value="Dual-mode Bluetooth&amp;#174; CC2564 module with integrated antenna" constant="no"/>
+<attribute name="Height" value="mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPA6130A2YZHT
+D 138-mW DirectPath Stereo Headphone Amplifier with I2C Volume Control (TPA6130)
+K
+F http://www.ti.com/lit/gpn/tpa6130a2
+$ENDCMP
+#
+#End Doc Library

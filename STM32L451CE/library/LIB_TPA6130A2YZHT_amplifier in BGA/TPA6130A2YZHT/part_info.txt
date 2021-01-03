@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPA6130A2YZHT
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=16
+Version=1.1
+Released=2020-11-22 09:36:41
+Downloaded=2020-11-22 09:40:27
+3D=Y
